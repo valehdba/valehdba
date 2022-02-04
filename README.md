@@ -14,16 +14,14 @@
 
 <!--
 **Languages and Tools:**  
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
-<code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"></code>  
+<code><img height="20" src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg"></code>  
 -->
 <!-- <a href="https://github.com/anuraghazra/github-readme-stats"> -->
-<img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=priya-jain-dev&show_icons=true&include_all_commits=true&theme=material-palenight" alt="Priya's github stats" />
+<img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api?username=valehdba&show_icons=true&include_all_commits=true&theme=material-palenight" alt="Valeh's github stats" />
 <!-- <a href="https://github.com/anuraghazra/github-readme-stats"> -->
-  <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=priya-jain-dev&layout=compact&theme=material-palenight" />
+  <img align="center" src="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs/?username=valehdba&layout=compact&theme=material-palenight" />
 <!--[![priya_jain_dev's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=priya_dev)](https://github.com/anuraghazra/github-readme-stats)
 <br />
-<a href="https://dev.to/priyajain6651" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/dev-dot-to.svg" alt="priyajain6651" height="20" width="20" /></a>
-<a href="https://twitter.com/priyajain6651" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="priyajain6651" height="20" width="20" /></a>
-<a href="https://linkedin.com/in/priya-jain-41b6a8115" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="priya-jain-41b6a8115" height="20" width="20" /></a>
+<a href="https://twitter.com/valeh_agayev" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="valeh_agayev" height="20" width="20" /></a>
+<a href="https://linkedin.com/in/valehagayev" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="valehagayev" height="20" width="20" /></a>
 -->
