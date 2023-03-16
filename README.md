@@ -13,11 +13,18 @@
 - ⚡  web: https://valehagayev.wordpress.com/
 
 
-**Languages and Tools:**  
-<code><img height="100" src="https://wiki.postgresql.org/images/3/30/PostgreSQL_logo.3colors.120x120.png"></code> 
-<code><img height="100" src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg"></code> 
+**Skills and Certifications:**  
+<img height="100" src="https://wiki.postgresql.org/images/3/30/PostgreSQL_logo.3colors.120x120.png">
+<img height="100" src="https://webimages.mongodb.com/_com_assets/cms/kuyj3d95v5vbmm2f4-horizontal_white.svg">
+<img height="100" src="https://png2.cleanpng.com/sh/15745c4ae47c2715e61611cb44d16de2/L0KzQYm4UMI1N5RuiZH0aYP2gLBuTfxwb5Cyi9NybD31cbTwjvcud6Nme95uLYTodX7ukvV6Naduh95udD3lgrL1hL1nd595RdZqdHHlccTsTgBib5YyS594Zj24PbLDjBZ1NWZnfKJvMXW6RIboWMAxNmM8SqY6MUS8QYa7UMQzOGE8SaQDNUOxgLBu/kisspng-logo-sail-racing-oracle-tee-grey-violet-brand-font-database-page-3-of-5-azoft-5bd0f1e745a800.2724114915404200712853.png">
+</br>
+<img height="100" src="https://valehagayev.files.wordpress.com/2019/07/screenshot-from-2019-07-11-12-10-39.png">
+<img height="100" src="https://valehagayev.files.wordpress.com/2018/01/oce_odb11gperftun_clr.png?w=180">
+<img height="100" src="https://valehagayev.files.wordpress.com/2016/12/orealappclu11ggridinfadmin_clr.png?w=180">
+<img height="100" src="https://valehagayev.files.wordpress.com/2016/08/o_database12c_admin_professional_clr.jpg?w=180">
+<img height="100" src="https://valehagayev.files.wordpress.com/2015/04/ocp20152.jpg?w=180">
+<img height="100" src="https://valehagayev.files.wordpress.com/2013/08/oce_odbsql_clr.jpg?w=180">
+<img height="100" src="https://valehagayev.files.wordpress.com/2016/06/o_certified-specialist_clr.jpg?w=180">
+<img height="100" src="https://valehagayev.files.wordpress.com/2014/03/oca_odb11gadmin_clr.png?w=180">
 
-<br />
-<a href="https://twitter.com/valeh_agayev" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="valeh_agayev" height="20" width="20" /></a>
-<a href="https://www.pngkey.com/png/detail/32-327123_mongodb-logo-white-png.png" alt="valehagayev" height="20" width="20" /></a>
--->
+
