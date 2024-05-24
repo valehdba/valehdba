@@ -3,7 +3,6 @@
 
 
 <h1 align="center">Hi 👋, I'm Valeh</h1>
-<p align="center">A passionate self-taught DBA from Azerbijan</p>
 <!--<p align="center">
   <img src="https://github-readme-quotes.herokuapp.com/quote?theme=dark&animation=grow_out_in" alt="my-personal-project"/>
 </p>-->
