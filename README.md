@@ -8,10 +8,10 @@
   <img src="https://github-readme-quotes.herokuapp.com/quote?theme=dark&animation=grow_out_in" alt="my-personal-project"/>
 </p>-->
 
-- 🔭 I’m currently working as Database Administrator (DBA)
+- 🔭 I am a Certified Database Administrator with knowledge and practice in installation, configuration, maintenance, high availability, monitoring, migration, performance tuning, backup, and recovery of PostgreSQL, Oracle, MySQL, Ms SQL Server, MongoDB, and Redis databases. I'm also a Red Hat Certified System Administrator(RHCSA) with hands-on experience on different RHEL and Debian distro-based Linux operation systems, and knowledge in Kubernetes administration. I have Cyber Security education and practice in offensive/defensive security and data governance. 
 - 📫 How to reach me: **valeh.agayev@gmail.com**
 - ⚡  web: https://valehagayev.wordpress.com/
-
+- ⚡  Resume: https://docs.google.com/document/d/1bFmV2euV8TSptoTuhyzCpYNKWQ36vucbQPMBdyy7uhk/edit?usp=sharing
 
 **Skills and Certifications:**  
 <img height="100" src="https://wiki.postgresql.org/images/3/30/PostgreSQL_logo.3colors.120x120.png">
