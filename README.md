@@ -8,10 +8,10 @@
 </p>-->
 
 
-Valeh Agayev
-Database Administrator (DBA)
-valeh.agayev@gmail.com | (+994) 77 3000146
-Baku, Azerbaijan       |   MyLinkedIn
+<p>Valeh Agayev</p>
+<p>Database Administrator (DBA)</p>
+<p>valeh.agayev@gmail.com | (+994) 77 3000146</p>
+<p>Baku, Azerbaijan       |   MyLinkedIn</p>
 
 Professional Summary
 Database Administrator with 14+ years of experience managing and optimizing high-availability environments across PostgreSQL, Oracle, MySQL, MS SQL Server, MongoDB, and Redis. Certified RHCSA with expertise in RHEL and Debian-based systems. 
