@@ -27,26 +27,26 @@ High Availability & Replication: Implement and manage PostgreSQL replication and
 Scripting & Automation: Create and maintain shell scripts to automate routine tasks, such as replication, backups, and database health monitoring.
 Performance Tuning: Monitor databases for performance issues and optimize queries, indexes, and system resources to improve efficiency.</p>
 
-Work Experience
-Principal Database Administrator | August 2024 -Present
-IKTEX LLC | Jan 2014 - Present
-Tech stack: Oracle, PostgreSQL, SQL Server, Redis, MongoDB
+<p>Work Experience</p>
+<p>Principal Database Administrator | August 2024 -Present</p>
+<p>IKTEX LLC | Jan 2014 - Present</p>
+<p>Tech stack: Oracle, PostgreSQL, SQL Server, Redis, MongoDB</p>
 
-Database  Administration Supervisor
-The UN Climate Change Conference COP29  | Sept 2024 - November2024 (Part-time)
-Tech stack: SQL Server, System Administration
+<p>Database  Administration Supervisor</p>
+<p>The UN Climate Change Conference COP29  | Sept 2024 - November2024 (Part-time)</p>
+<p>Tech stack: SQL Server, System Administration</p>
 
-Oracle Database Administrator (Part-time)
-LSIM |	September 2023 - August 2024 
-Tech stack: Oracle, MySQL
+<p>Oracle Database Administrator (Part-time)</p>
+<p>LSIM |	September 2023 - August 2024 </p>
+<p>Tech stack: Oracle, MySQL</p>
 
-PostgreSQL Database Administrator (Part-time)
-Kibrit | November 2023 - August 2024 
-Tech stack: Oracle, PostgreSQL, SQL Server
+<p>PostgreSQL Database Administrator (Part-time)</p>
+<p>Kibrit | November 2023 - August 2024 </p>
+<p>Tech stack: Oracle, PostgreSQL, SQL Server</p>
 
-Oracle Database Administrator (freelance)
-Konfirom LLC | Feb 2018 - May 2018 
-Tech stack: Oracle data guard, Oracle Linux, Oracle Forms
+<p>Oracle Database Administrator (freelance)</p>
+<p>Konfirom LLC | Feb 2018 - May 2018 </p>
+<p>Tech stack: Oracle data guard, Oracle Linux, Oracle Forms</p>
 
 Senior Database Administrator Jan 2014 - August 2024 
 IKTEX LLC | Jan 2014 - Present
