@@ -13,19 +13,19 @@
 <p>valeh.agayev@gmail.com | (+994) 77 3000146</p>
 <p>Baku, Azerbaijan       |   MyLinkedIn</p>
 
-Professional Summary
-Database Administrator with 14+ years of experience managing and optimizing high-availability environments across PostgreSQL, Oracle, MySQL, MS SQL Server, MongoDB, and Redis. Certified RHCSA with expertise in RHEL and Debian-based systems. 
-Known for my problem-solving skills and attention to detail, I have successfully led multiple database migration and optimization projects, improving database performance and reliability. My collaborative approach and effective communication skills enable me to work efficiently with cross-functional teams to deliver high-quality results.
-Key Responsibilities and Experience:
-Database Support & Management: Manage over 150 mission-critical, test, and development databases across Oracle, PostgreSQL, MySQL, Redis, and MS SQL Server.
+<p>Professional Summary</p>
+<p>Database Administrator with 14+ years of experience managing and optimizing high-availability environments across PostgreSQL, Oracle, MySQL, MS SQL Server, MongoDB, and Redis. Certified RHCSA with expertise in RHEL and Debian-based systems. 
+Known for my problem-solving skills and attention to detail, I have successfully led multiple database migration and optimization projects, improving database performance and reliability. My collaborative approach and effective communication skills enable me to work efficiently with cross-functional teams to deliver high-quality results.</p>
+<p>Key Responsibilities and Experience:</p>
+<p>Database Support & Management: Manage over 150 mission-critical, test, and development databases across Oracle, PostgreSQL, MySQL, Redis, and MS SQL Server.
 Database Migrations: Plan and execute database migrations from Oracle and MS SQL Server to PostgreSQL, ensuring minimal downtime and data integrity.
 Version Management: Administer PostgreSQL (versions 10–16), Oracle (11g, 12c, 19c, 23c), MS SQL Server (2008–2022), Redis, MongoDB, MySQL, and MilVus databases.
 DB Installation & Maintenance: Perform installation, maintenance, troubleshooting, and upgrades for multiple DBMSs, ensuring optimal performance and reliability.
 Backup & Recovery: Develop and manage backup and recovery strategies, testing processes regularly to ensure business continuity.
-High Availability & Replication: Implement and manage PostgreSQL replication and high availability, Oracle RAC, Data Guard, and Cloud Control, ensuring minimal downtime for mission-critical systems.
-Security & User Management: Establish user needs, control access permissions, monitor user activity, and maintain security across all managed databases.
+High Availability & Replication: Implement and manage PostgreSQL replication and high availability, Oracle RAC, Data Guard, and Cloud Control, ensuring minimal downtime for mission-critical systems.</p>
+<p>Security & User Management: Establish user needs, control access permissions, monitor user activity, and maintain security across all managed databases.
 Scripting & Automation: Create and maintain shell scripts to automate routine tasks, such as replication, backups, and database health monitoring.
-Performance Tuning: Monitor databases for performance issues and optimize queries, indexes, and system resources to improve efficiency.
+Performance Tuning: Monitor databases for performance issues and optimize queries, indexes, and system resources to improve efficiency.</p>
 
 Work Experience
 Principal Database Administrator | August 2024 -Present
