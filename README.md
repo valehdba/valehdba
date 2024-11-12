@@ -11,7 +11,8 @@
 <p>Valeh Agayev</p>
 <p>Database Administrator (DBA)</p>
 <p>valeh.agayev@gmail.com | (+994) 77 3000146</p>
-<p>Baku, Azerbaijan       |   MyLinkedIn</p>
+<p>Baku, Azerbaijan       |       <a href="https://www.linkedin.com/in/valehagayev/" target="_blank" rel="noopener noreferrer">      My LinkedIn Profile </a></p>
+ 
 
 
 
