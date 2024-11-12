@@ -6,7 +6,7 @@
 <!--<p align="center">
   <img src="https://github-readme-quotes.herokuapp.com/quote?theme=dark&animation=grow_out_in" alt="my-personal-project"/>
 </p>-->
-
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/dd/Flag_of_Azerbaijan.svg" alt="Azerbaijani Flag" style="width: 100px; height: auto;">
 
 <p>Valeh Agayev</p>
 <p>Database Administrator (DBA)</p>
