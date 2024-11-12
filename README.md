@@ -2,7 +2,7 @@
 
 
 
-<h1 align="center">Hi 👋, Welcome to my github </h1>
+<h1 align="center">👋, Welcome to my github </h1>
 <!--<p align="center">
   <img src="https://github-readme-quotes.herokuapp.com/quote?theme=dark&animation=grow_out_in" alt="my-personal-project"/>
 </p>-->
