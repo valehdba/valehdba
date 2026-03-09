@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DBA GitHub Profile README Preview</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:        #0b0c0e;
+    --surface:   #111318;
+    --border:    #1e2229;
+    --border2:   #2a3040;
+    --amber:     #f5a623;
+    --amber-dim: #9a6610;
+    --green:     #3ddc84;
+    --green-dim: #1d6b42;
+    --blue:      #4a9eff;
+    --red:       #ff5f5f;
+    --text:      #d4dbe8;
+    --text-dim:  #5a6478;
+    --text-mid:  #8a95a8;
+    --white:     #f0f4ff;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #07080a;
+    font-family: 'IBM Plex Mono', monospace;
+    color: var(--text);
+    min-height: 100vh;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* ── Page chrome ── */
+  .page-label {
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .page-label::before, .page-label::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 1px;
+    background: var(--border2);
+  }
+
+  /* ── GitHub wrapper ── */
+  .github-frame {
+    width: 100%;
+    max-width: 860px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 0 1px rgba(255,255,255,0.03), 0 40px 80px rgba(0,0,0,0.6);
+  }
+
+  /* ── GitHub topbar ── */
+  .gh-topbar {
+    background: #161b22;
+    border-bottom: 1px solid #30363d;
+    padding: 10px 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .gh-dot { width: 12px; height: 12px; border-radius: 50%; }
+  .gh-dot.r { background: #ff5f57; }
+  .gh-dot.y { background: #febc2e; }
+  .gh-dot.g { background: #28c840; }
+  .gh-url {
+    margin-left: 12px;
+    font-size: 11px;
+    color: #8b949e;
+    background: #0d1117;
+    border: 1px solid #30363d;
+    border-radius: 4px;
+    padding: 2px 12px;
+    flex: 1;
+    max-width: 400px;
+  }
+
+  /* ── README content ── */
+  .readme {
+    padding: 0;
+    background: #0d1117;
+    color: #e6edf3;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  /* ── Hero section ── */
+  .hero {
+    padding: 48px 40px 32px;
+    background: #0d1117;
+    border-bottom: 1px solid #21262d;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* Subtle grid background */
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image:
+      linear-gradient(rgba(245,166,35,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(245,166,35,0.04) 1px, transparent 1px);
+    background-size: 40px 40px;
+    pointer-events: none;
+  }
+
+  /* Glow orb */
+  .hero::after {
+    content: '';
+    position: absolute;
+    top: -80px;
+    right: -80px;
+    width: 320px;
+    height: 320px;
+    background: radial-gradient(circle, rgba(61,220,132,0.06) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .hero-inner {
+    position: relative;
+    z-index: 1;
+  }
+
+  .hero-tag {
+    display: inline-block;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    color: var(--amber);
+    text-transform: uppercase;
+    border: 1px solid var(--amber-dim);
+    border-radius: 2px;
+    padding: 3px 8px;
+    margin-bottom: 20px;
+    animation: fadeSlideUp 0.6s ease both;
+  }
+
+  .hero-name {
+    font-family: 'DM Serif Display', serif;
+    font-size: 42px;
+    font-weight: 400;
+    color: #f0f4ff;
+    line-height: 1.1;
+    margin-bottom: 8px;
+    animation: fadeSlideUp 0.6s 0.1s ease both;
+  }
+
+  .hero-name em {
+    font-style: italic;
+    color: var(--amber);
+  }
+
+  .hero-subtitle {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    color: #6e7681;
+    letter-spacing: 0.08em;
+    margin-bottom: 24px;
+    animation: fadeSlideUp 0.6s 0.2s ease both;
+  }
+
+  .hero-desc {
+    font-size: 15px;
+    color: #8b949e;
+    max-width: 580px;
+    line-height: 1.7;
+    animation: fadeSlideUp 0.6s 0.3s ease both;
+  }
+
+  .hero-desc strong {
+    color: #e6edf3;
+    font-weight: 500;
+  }
+
+  /* ── Stats bar ── */
+  .stats-bar {
+    display: flex;
+    gap: 0;
+    border-top: 1px solid #21262d;
+    border-bottom: 1px solid #21262d;
+    background: #161b22;
+    animation: fadeSlideUp 0.6s 0.4s ease both;
+  }
+
+  .stat-item {
+    flex: 1;
+    padding: 16px 20px;
+    border-right: 1px solid #21262d;
+    text-align: center;
+  }
+  .stat-item:last-child { border-right: none; }
+
+  .stat-num {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 22px;
+    font-weight: 600;
+    color: #f0f4ff;
+    display: block;
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+  .stat-num.amber { color: var(--amber); }
+  .stat-num.green { color: var(--green); }
+  .stat-num.blue  { color: var(--blue); }
+
+  .stat-label {
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #484f58;
+  }
+
+  /* ── Content sections ── */
+  .content {
+    padding: 32px 40px;
+    display: grid;
+    gap: 32px;
+  }
+
+  /* ── Section header ── */
+  .section-head {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+  .section-head .line {
+    flex: 1;
+    height: 1px;
+    background: #21262d;
+  }
+  .section-head h2 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #484f58;
+    white-space: nowrap;
+  }
+
+  /* ── Platform grid ── */
+  .platform-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 8px;
+  }
+
+  .platform-card {
+    background: #161b22;
+    border: 1px solid #21262d;
+    border-radius: 6px;
+    padding: 14px 12px;
+    text-align: center;
+    transition: border-color 0.2s, transform 0.2s;
+    cursor: default;
+  }
+  .platform-card:hover {
+    border-color: #30363d;
+    transform: translateY(-2px);
+  }
+
+  .platform-icon {
+    font-size: 22px;
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  .platform-name {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    font-weight: 500;
+    color: #e6edf3;
+    display: block;
+    margin-bottom: 4px;
+  }
+
+  .platform-badge {
+    font-size: 9px;
+    letter-spacing: 0.05em;
+    padding: 1px 5px;
+    border-radius: 2px;
+    font-family: 'IBM Plex Mono', monospace;
+  }
+  .pb-amber { background: rgba(245,166,35,0.12); color: var(--amber); }
+  .pb-green { background: rgba(61,220,132,0.1); color: var(--green); }
+  .pb-blue  { background: rgba(74,158,255,0.12); color: var(--blue); }
+  .pb-red   { background: rgba(255,95,95,0.12); color: var(--red); }
+
+  /* ── Skills matrix ── */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+
+  .skill-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: #161b22;
+    border: 1px solid #21262d;
+    border-radius: 4px;
+    padding: 10px 14px;
+  }
+
+  .skill-name {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: #8b949e;
+    width: 140px;
+    flex-shrink: 0;
+  }
+
+  .skill-bar-wrap {
+    flex: 1;
+    height: 3px;
+    background: #21262d;
+    border-radius: 2px;
+    overflow: hidden;
+  }
+
+  .skill-bar {
+    height: 100%;
+    border-radius: 2px;
+    animation: growBar 1s 0.5s ease both;
+    transform-origin: left;
+  }
+
+  @keyframes growBar {
+    from { transform: scaleX(0); }
+    to   { transform: scaleX(1); }
+  }
+
+  .skill-bar.amber { background: linear-gradient(90deg, var(--amber-dim), var(--amber)); }
+  .skill-bar.green { background: linear-gradient(90deg, var(--green-dim), var(--green)); }
+  .skill-bar.blue  { background: linear-gradient(90deg, #1a4a80, var(--blue)); }
+
+  /* ── Repo showcase ── */
+  .repo-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+
+  .repo-card {
+    background: #161b22;
+    border: 1px solid #21262d;
+    border-radius: 6px;
+    padding: 16px;
+    transition: border-color 0.2s;
+  }
+  .repo-card:hover { border-color: #388bfd; }
+
+  .repo-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+
+  .repo-icon { font-size: 14px; }
+
+  .repo-name {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    color: #58a6ff;
+    font-weight: 600;
+  }
+
+  .repo-desc {
+    font-size: 12px;
+    color: #6e7681;
+    line-height: 1.5;
+    margin-bottom: 12px;
+  }
+
+  .repo-footer {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .repo-lang {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 11px;
+    color: #8b949e;
+  }
+
+  .lang-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+
+  .repo-stars {
+    font-size: 11px;
+    color: #8b949e;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  /* ── Terminal block ── */
+  .terminal {
+    background: #010409;
+    border: 1px solid #21262d;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+
+  .terminal-bar {
+    background: #161b22;
+    border-bottom: 1px solid #21262d;
+    padding: 8px 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .t-dot { width: 10px; height: 10px; border-radius: 50%; }
+  .t-dot.r { background: #ff5f57; }
+  .t-dot.y { background: #febc2e; }
+  .t-dot.g { background: #28c840; }
+
+  .terminal-title {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    color: #484f58;
+    margin-left: 6px;
+  }
+
+  .terminal-body {
+    padding: 16px 20px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    line-height: 2;
+  }
+
+  .t-prompt { color: var(--green); }
+  .t-cmd    { color: #e6edf3; }
+  .t-out    { color: #6e7681; padding-left: 16px; display: block; }
+  .t-key    { color: var(--amber); }
+  .t-val    { color: var(--blue); }
+  .t-cursor {
+    display: inline-block;
+    width: 7px;
+    height: 14px;
+    background: var(--green);
+    vertical-align: middle;
+    animation: blink 1s step-end infinite;
+  }
+
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50%       { opacity: 0; }
+  }
+
+  /* ── Badge strip ── */
+  .badge-strip {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 20px 40px;
+    border-top: 1px solid #21262d;
+    background: #161b22;
+  }
+
+  .badge {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    padding: 4px 10px;
+    border-radius: 3px;
+    border: 1px solid;
+    letter-spacing: 0.05em;
+    transition: opacity 0.2s;
+  }
+  .badge:hover { opacity: 0.75; }
+
+  .badge.ora  { color: #f5a623; border-color: #9a6610; background: rgba(245,166,35,0.08); }
+  .badge.mss  { color: #ff5f5f; border-color: #7a2020; background: rgba(255,95,95,0.08); }
+  .badge.pg   { color: #4a9eff; border-color: #1a4a80; background: rgba(74,158,255,0.08); }
+  .badge.my   { color: #3ddc84; border-color: #1d6b42; background: rgba(61,220,132,0.08); }
+  .badge.k8s  { color: #6fb3ff; border-color: #2a4a80; background: rgba(111,179,255,0.08); }
+  .badge.ansi { color: #e84040; border-color: #601010; background: rgba(232,64,64,0.08); }
+  .badge.tf   { color: #9b6fff; border-color: #4a2a80; background: rgba(155,111,255,0.08); }
+  .badge.py   { color: #ffd43b; border-color: #7a6010; background: rgba(255,212,59,0.08); }
+  .badge.sh   { color: #3ddc84; border-color: #1d6b42; background: rgba(61,220,132,0.08); }
+
+  /* ── Footer ── */
+  .readme-footer {
+    padding: 20px 40px;
+    border-top: 1px solid #21262d;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .footer-quote {
+    font-family: 'DM Serif Display', serif;
+    font-style: italic;
+    font-size: 13px;
+    color: #484f58;
+  }
+
+  .footer-meta {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    color: #30363d;
+  }
+
+  /* ── Animations ── */
+  @keyframes fadeSlideUp {
+    from { opacity: 0; transform: translateY(12px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  .content > * {
+    animation: fadeSlideUp 0.5s ease both;
+  }
+  .content > *:nth-child(1) { animation-delay: 0.3s; }
+  .content > *:nth-child(2) { animation-delay: 0.45s; }
+  .content > *:nth-child(3) { animation-delay: 0.6s; }
+  .content > *:nth-child(4) { animation-delay: 0.75s; }
+
+</style>
+</head>
+<body>
+
+<div class="page-label">GitHub Profile README · Visual Preview</div>
+
+<div class="github-frame">
+
+  <!-- GitHub chrome -->
+  <div class="gh-topbar">
+    <div class="gh-dot r"></div>
+    <div class="gh-dot y"></div>
+    <div class="gh-dot g"></div>
+    <div class="gh-url">github.com / valehdba</div>
+  </div>
+
+  <!-- README begins -->
+  <div class="readme">
+
+    <!-- Hero -->
+    <div class="hero">
+      <div class="hero-inner">
+        <div class="hero-tag">Principal DBA · 15+ Years</div>
+        <div class="hero-name">Database <em>Engineering</em><br>at Scale</div>
+        <div class="hero-subtitle">// Oracle · SQL Server · PostgreSQL · MySQL · CloudNativePG</div>
+        <div class="hero-desc">
+          Building <strong>production-hardened</strong> database systems across cloud-native and on-premises environments.
+          This repo is a living reference of SQL, automation, architecture patterns, and operational best practices
+          distilled from <strong>15+ years of enterprise DBA work</strong> — from RAC clusters to Kubernetes-native PostgreSQL.
+        </div>
+      </div>
+    </div>
+
+    <!-- Stats bar -->
+    <div class="stats-bar">
+      <div class="stat-item">
+        <span class="stat-num amber">15+</span>
+        <span class="stat-label">Years Production</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num green">5</span>
+        <span class="stat-label">RDBMS Platforms</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num blue">50+</span>
+        <span class="stat-label">Scripts & Tools</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-num" style="color:#e6edf3">6</span>
+        <span class="stat-label">Best Practice Guides</span>
+      </div>
+    </div>
+
+    <!-- Main content -->
+    <div class="content">
+
+      <!-- Platforms -->
+      <div>
+        <div class="section-head">
+          <h2>// Platforms</h2>
+          <div class="line"></div>
+        </div>
+        <div class="platform-grid">
+          <div class="platform-card">
+            <span class="platform-icon">🔴</span>
+            <span class="platform-name">Oracle</span>
+            <span class="platform-badge pb-amber">19c · RAC · DG</span>
+          </div>
+          <div class="platform-card">
+            <span class="platform-icon">🔵</span>
+            <span class="platform-name">SQL Server</span>
+            <span class="platform-badge pb-red">2022 · Always On</span>
+          </div>
+          <div class="platform-card">
+            <span class="platform-icon">🐘</span>
+            <span class="platform-name">PostgreSQL</span>
+            <span class="platform-badge pb-blue">PG 16 · Patroni</span>
+          </div>
+          <div class="platform-card">
+            <span class="platform-icon">🐬</span>
+            <span class="platform-name">MySQL / MariaDB</span>
+            <span class="platform-badge pb-green">8.x · Galera</span>
+          </div>
+          <div class="platform-card">
+            <span class="platform-icon">☸️</span>
+            <span class="platform-name">CNPG</span>
+            <span class="platform-badge pb-blue">K8s · GitOps</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skills matrix -->
+      <div>
+        <div class="section-head">
+          <h2>// Expertise</h2>
+          <div class="line"></div>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-row">
+            <span class="skill-name">Performance Tuning</span>
+            <div class="skill-bar-wrap"><div class="skill-bar amber" style="width:98%"></div></div>
+          </div>
+          <div class="skill-row">
+            <span class="skill-name">HA / Disaster Recovery</span>
+            <div class="skill-bar-wrap"><div class="skill-bar green" style="width:96%"></div></div>
+          </div>
+          <div class="skill-row">
+            <span class="skill-name">Backup & Recovery</span>
+            <div class="skill-bar-wrap"><div class="skill-bar amber" style="width:97%"></div></div>
+          </div>
+          <div class="skill-row">
+            <span class="skill-name">Security Hardening</span>
+            <div class="skill-bar-wrap"><div class="skill-bar blue" style="width:90%"></div></div>
+          </div>
+          <div class="skill-row">
+            <span class="skill-name">Schema Design</span>
+            <div class="skill-bar-wrap"><div class="skill-bar green" style="width:95%"></div></div>
+          </div>
+          <div class="skill-row">
+            <span class="skill-name">K8s / Cloud-Native DB</span>
+            <div class="skill-bar-wrap"><div class="skill-bar blue" style="width:85%"></div></div>
+          </div>
+          <div class="skill-row">
+            <span class="skill-name">Automation (Ansible/TF)</span>
+            <div class="skill-bar-wrap"><div class="skill-bar amber" style="width:88%"></div></div>
+          </div>
+          <div class="skill-row">
+            <span class="skill-name">Replication / CDC</span>
+            <div class="skill-bar-wrap"><div class="skill-bar green" style="width:93%"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Repo highlights -->
+      <div>
+        <div class="section-head">
+          <h2>// Highlighted Scripts</h2>
+          <div class="line"></div>
+        </div>
+        <div class="repo-grid">
+          <div class="repo-card">
+            <div class="repo-header">
+              <span class="repo-icon">📄</span>
+              <span class="repo-name">awr_top_sql_report.sql</span>
+            </div>
+            <div class="repo-desc">AWR-based top SQL analysis by CPU, elapsed time & I/O. Configurable lookback window.</div>
+            <div class="repo-footer">
+              <span class="repo-lang"><span class="lang-dot" style="background:#e38d5b"></span>Oracle SQL</span>
+              <span class="repo-stars">⭐ Perf Tuning</span>
+            </div>
+          </div>
+          <div class="repo-card">
+            <div class="repo-header">
+              <span class="repo-icon">⚡</span>
+              <span class="repo-name">wait_stats_analysis.sql</span>
+            </div>
+            <div class="repo-desc">Delta wait stats with category labels. Filters benign idles for clean signal.</div>
+            <div class="repo-footer">
+              <span class="repo-lang"><span class="lang-dot" style="background:#cc2927"></span>T-SQL</span>
+              <span class="repo-stars">⭐ Diagnostics</span>
+            </div>
+          </div>
+          <div class="repo-card">
+            <div class="repo-header">
+              <span class="repo-icon">🔍</span>
+              <span class="repo-name">bloat_estimation.sql</span>
+            </div>
+            <div class="repo-desc">Extension-free table & index bloat estimation. Includes VACUUM/repack recommendations.</div>
+            <div class="repo-footer">
+              <span class="repo-lang"><span class="lang-dot" style="background:#336791"></span>PostgreSQL</span>
+              <span class="repo-stars">⭐ Maintenance</span>
+            </div>
+          </div>
+          <div class="repo-card">
+            <div class="repo-header">
+              <span class="repo-icon">☸️</span>
+              <span class="repo-name">cnpg-cluster-production.yaml</span>
+            </div>
+            <div class="repo-desc">Production CNPG cluster with PgBouncer, S3 WAL archiving, Prometheus monitoring.</div>
+            <div class="repo-footer">
+              <span class="repo-lang"><span class="lang-dot" style="background:#326ce5"></span>YAML / K8s</span>
+              <span class="repo-stars">⭐ Platform</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Terminal -->
+      <div>
+        <div class="section-head">
+          <h2>// Quick Connect</h2>
+          <div class="line"></div>
+        </div>
+        <div class="terminal">
+          <div class="terminal-bar">
+            <div class="t-dot r"></div>
+            <div class="t-dot y"></div>
+            <div class="t-dot g"></div>
+            <span class="terminal-title">bash — dba@toolkit:~</span>
+          </div>
+          <div class="terminal-body">
+            <div><span class="t-prompt">❯ </span><span class="t-cmd">git clone https://github.com/valehdba/dba-toolkit.git</span></div>
+            <span class="t-out">Cloning into 'dba-toolkit'...</span>
+            <span class="t-out">remote: Counting objects: <span style="color:#e6edf3">247</span>, done.</span>
+            <br>
+            <div><span class="t-prompt">❯ </span><span class="t-cmd">ls dba-toolkit/</span></div>
+            <span class="t-out"><span class="t-key">oracle/</span>  <span class="t-key">sqlserver/</span>  <span class="t-key">postgresql/</span>  <span class="t-key">mysql-mariadb/</span>  <span class="t-key">cnpg/</span>  <span class="t-key">best-practices/</span></span>
+            <br>
+            <div><span class="t-prompt">❯ </span><span class="t-cmd">cat best-practices/security-hardening.md | head -3</span></div>
+            <span class="t-out"><span class="t-val"># Database Security Hardening Standards</span></span>
+            <span class="t-out">Least privilege. Encrypt everything. Audit all the things.</span>
+            <br>
+            <div><span class="t-prompt">❯ </span><span class="t-cursor"></span></div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /content -->
+
+    <!-- Badge strip -->
+    <div class="badge-strip">
+      <span class="badge ora">Oracle 19c</span>
+      <span class="badge mss">SQL Server 2022</span>
+      <span class="badge pg">PostgreSQL 16</span>
+      <span class="badge my">MySQL 8</span>
+      <span class="badge my">MariaDB 10</span>
+      <span class="badge k8s">Kubernetes</span>
+      <span class="badge k8s">CloudNativePG</span>
+      <span class="badge k8s">Helm</span>
+      <span class="badge k8s">ArgoCD</span>
+      <span class="badge ansi">Ansible</span>
+      <span class="badge tf">Terraform</span>
+      <span class="badge py">Python</span>
+      <span class="badge sh">Bash</span>
+      <span class="badge k8s">pgBackRest</span>
+      <span class="badge my">Percona XtraBackup</span>
+      <span class="badge ora">RMAN</span>
+      <span class="badge k8s">Patroni</span>
+      <span class="badge my">Galera</span>
+    </div>
+
+    <!-- Footer -->
+    <div class="readme-footer">
+      <span class="footer-quote">"Built with 15+ years of production scars and a deep respect for data integrity."</span>
+      <span class="footer-meta">MIT License · Open to contributions</span>
+    </div>
+
+  </div><!-- /readme -->
+</div><!-- /github-frame -->
+
+</body>
+</html>
