@@ -94,7 +94,7 @@ Specialising in:
 
 <div align="center">
 
-[![Valeh's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=valehdba&theme=github-compact&bg_color=0d1117&color=F5A623&line=3ddc84&point=F5A623&area=true&hide_border=false&border_color=F5A623)](https://github.com/valehdba)
+[![Valeh's Activity Graph](https://github-readme-stats-e3q8nloab-valehagayev-2000s-projects.vercel.app/graph?username=valehdba&theme=github-compact&bg_color=0d1117&color=F5A623&line=3ddc84&point=F5A623&area=true&hide_border=false&border_color=F5A623)](https://github.com/valehdba)
 
 </div>
 
@@ -118,7 +118,7 @@ Specialising in:
 
 <div align="center">
 
-[![dba-toolkit](https://github-readme-stats.vercel.app/api/pin/?username=valehdba&repo=dba-toolkit&theme=github_dark&border_color=F5A623&title_color=F5A623&icon_color=3ddc84&text_color=c9d1d9)](https://github.com/valehdba/dba-toolkit)
+[![dba-toolkit](https://github-readme-stats-e3q8nloab-valehagayev-2000s-projects.vercel.app/api/pin/?username=valehdba&repo=dba-toolkit&theme=github_dark&border_color=F5A623&title_color=F5A623&icon_color=3ddc84&text_color=c9d1d9)](https://github.com/valehdba/dba-toolkit)
 
 </div>
 
