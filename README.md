@@ -65,10 +65,10 @@ Specialising in:
 <table>
   <tr>
     <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=valehdba&show_icons=true&theme=github_dark&border_color=F5A623&title_color=F5A623&icon_color=3ddc84&text_color=c9d1d9&hide_border=false&count_private=true&include_all_commits=true&rank_icon=github" alt="Valeh's GitHub Stats" />
+      <img src="https://github-readme-stats-e3q8nloab-valehagayev-2000s-projects.vercel.app/api?username=valehdba&show_icons=true&theme=github_dark&border_color=F5A623&title_color=F5A623&icon_color=3ddc84&text_color=c9d1d9&hide_border=false&count_private=true&include_all_commits=true&rank_icon=github" alt="Valeh's GitHub Stats" />
     </td>
     <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=valehdba&layout=compact&theme=github_dark&border_color=F5A623&title_color=F5A623&text_color=c9d1d9&hide_border=false&langs_count=6&hide=html,css,jupyter+notebook" alt="Top Languages" />
+      <img src="https://github-readme-stats-e3q8nloab-valehagayev-2000s-projects.vercel.app/api/top-langs/?username=valehdba&layout=compact&theme=github_dark&border_color=F5A623&title_color=F5A623&text_color=c9d1d9&hide_border=false&langs_count=6&hide=html,css,jupyter+notebook" alt="Top Languages" />
     </td>
   </tr>
 </table>
