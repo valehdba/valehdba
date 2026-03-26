@@ -115,8 +115,7 @@ Specialising in:
 
 </div>
 
----
-
+<!--
 ### 📌 Featured Repositories
 
 <div align="center">
@@ -130,7 +129,7 @@ Specialising in:
   </p>
 </div>
 
----
+-->
 
 ### 📫 Connect
 
