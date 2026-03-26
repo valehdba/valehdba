@@ -119,16 +119,17 @@ Specialising in:
 
 ### 📌 Featured Repository
 
-<p align="center">
+ 
+<div>
+  <p align="center">
+    <a href="https://github.com/valehdba/Oracle_Scripts"><img src="https://github-readme-stats.vercel.app/api/pin/?username=valehdba&repo=Oracle_Scripts&theme=github_dark&border_color=F5A623&title_color=F5A623&icon_color=3ddc84&text_color=c9d1d9" /></a>
+    <a href="https://github.com/valehdba/PgDBA"><img src="https://github-readme-stats.vercel.app/api/pin/?username=valehdba&repo=PgDBA&theme=github_dark&border_color=F5A623&title_color=F5A623&icon_color=3ddc84&text_color=c9d1d9" /></a>
+  </p>
 
-  <a href="https://github.com/valehdba/Oracle_Scripts"><img src="https://github-readme-stats.vercel.app/api/pin/?username=valehdba&repo=Oracle_Scripts&theme=github_dark&border_color=F5A623&title_color=F5A623&icon_color=3ddc84&text_color=c9d1d9" /></a>
-  <a href="https://github.com/valehdba/PgDBA"><img src="https://github-readme-stats.vercel.app/api/pin/?username=valehdba&repo=PgDBA&theme=github_dark&border_color=F5A623&title_color=F5A623&icon_color=3ddc84&text_color=c9d1d9" /></a>
-</p>
-<p align="center">
-  <a href="https://github.com/valehdba/pgx_clone"><img src="https://github-readme-stats.vercel.app/api/pin/?username=valehdba&repo=pgx_clone&theme=github_dark&border_color=F5A623&title_color=F5A623&icon_color=3ddc84&text_color=c9d1d9" /></a>
-  <a href="https://github.com/valehdba/pgx_permission_sync"><img src="https://github-readme-stats.vercel.app/api/pin/?username=valehdba&repo=pgx_permission_sync&theme=github_dark&border_color=F5A623&title_color=F5A623&icon_color=3ddc84&text_color=c9d1d9" /></a>
-</p>
-
+  <p align="center">
+    <a href="https://github.com/valehdba/pgx_clone"><img src="https://github-readme-stats.vercel.app/api/pin/?username=valehdba&repo=pgx_clone&theme=github_dark&border_color=F5A623&title_color=F5A623&icon_color=3ddc84&text_color=c9d1d9" /></a>
+    <a href="https://github.com/valehdba/pgx_permission_sync"><img src="https://github-readme-stats.vercel.app/api/pin/?username=valehdba&repo=pgx_permission_sync&theme=github_dark&border_color=F5A623&title_color=F5A623&icon_color=3ddc84&text_color=c9d1d9" /></a>
+  </p>
 </div>
 ---
 
