@@ -128,26 +128,8 @@ Specialising in:
   <a href="https://github.com/valehdba/pgx_clone"><img src="https://github-readme-stats.vercel.app/api/pin/?username=valehdba&repo=pgx_clone&theme=github_dark&border_color=F5A623&title_color=F5A623&icon_color=3ddc84&text_color=c9d1d9" /></a>
   <a href="https://github.com/valehdba/pgx_permission_sync"><img src="https://github-readme-stats.vercel.app/api/pin/?username=valehdba&repo=pgx_permission_sync&theme=github_dark&border_color=F5A623&title_color=F5A623&icon_color=3ddc84&text_color=c9d1d9" /></a>
 </p>
-<!--
-<p align="center">
-  <a href="https://github.com/valehdba/dba-toolkit"><img src="https://github-readme-stats.vercel.app/api/pin/?username=valehdba&repo=dba-toolkit&theme=github_dark&border_color=F5A623&title_color=F5A623&icon_color=3ddc84&text_color=c9d1d9" /></a>
-  <a href="https://github.com/valehdba/SQLServer_Scripts"><img src="https://github-readme-stats.vercel.app/api/pin/?username=valehdba&repo=SQLServer_Scripts&theme=github_dark&border_color=F5A623&title_color=F5A623&icon_color=3ddc84&text_color=c9d1d9" /></a>
-</p>
-<!--
-<div>
-<p align="center">
-  <a href="https://github.com/valehdba/MySQL_Scripts"><img src="https://github-readme-stats.vercel.app/api/pin/?username=valehdba&repo=MySQL_Scripts&theme=github_dark&border_color=F5A623&title_color=F5A623&icon_color=3ddc84&text_color=c9d1d9" /></a>
-  <a href="https://github.com/valehdba/MongoDB_scripts"><img src="https://github-readme-stats.vercel.app/api/pin/?username=valehdba&repo=MongoDB_scripts&theme=github_dark&border_color=F5A623&title_color=F5A623&icon_color=3ddc84&text_color=c9d1d9" /></a>
-</p>
-<!--
-<p align="center">
-  <a href="https://github.com/valehdba/Redis_Scripts"><img src="https://github-readme-stats.vercel.app/api/pin/?username=valehdba&repo=Redis_Scripts&theme=github_dark&border_color=F5A623&title_color=F5A623&icon_color=3ddc84&text_color=c9d1d9" /></a>
-  <a href="https://github.com/valehdba/elasticsearch-scripts"><img src="https://github-readme-stats.vercel.app/api/pin/?username=valehdba&repo=elasticsearch-scripts&theme=github_dark&border_color=F5A623&title_color=F5A623&icon_color=3ddc84&text_color=c9d1d9" /></a>
-</p>
-<!--
-A curated collection of production SQL scripts, performance tuning tools, architecture diagrams, automation scripts, and operational best practices across **Oracle · SQL Server · PostgreSQL · MySQL/MariaDB · CloudNativePG**.
+
 </div>
--->
 ---
 
 ### 📫 Connect
